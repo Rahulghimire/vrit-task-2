@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -12,11 +13,21 @@ body {
   overflow-x: hidden;
 }
 
-
 .image-container,
+.why-container,
 .image-container-after {
   position: relative;
   display: inline-block;
+}
+
+.why-container::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 190px;
+  height: 100%;
+  background-color: #C2292E;
 }
 
 .image-container::before,
@@ -61,8 +72,9 @@ body {
 }
 
 .font-family-2{
-  font-family: 'Work-Sans';
+  font-family: "Work Sans", sans-serif;
 }
+
 
 @media (min-width: 1500px) {
   body {
@@ -70,6 +82,7 @@ body {
     margin: auto;
   }
 }
+
 @media (max-width: 768px) {
   .image-container::after {
     content: "About Us";
@@ -81,4 +94,8 @@ body {
     font-weight: bold;
     font-size: 1rem;
   }
+
+
+
+  
 }

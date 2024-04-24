@@ -2,7 +2,7 @@ import { Suspense } from "react";
 import logo from "../assets/logo192.png";
 import { createBrowserRouter } from "react-router-dom";
 import ErrorPage from "../components/ErrorPage";
-import AboutUs from "../components/AboutUs";
+import AboutUs from "../components/about/AboutUs";
 import ContactUs from "../components/ContactUs";
 
 const routers = createBrowserRouter([

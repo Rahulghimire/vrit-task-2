@@ -1,5 +1,5 @@
 import React from 'react'
-import banRight from "../assets/ban-right.svg"
+import banRight from "../../assets/ban-right.svg"
 const RightChild = () => {
   return (
     <div>
