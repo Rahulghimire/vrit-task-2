@@ -1,8 +1,8 @@
 import React from 'react'
-import { MiddleCommon, TopCommon } from '../common/TopCommon'
+import { MiddleCommon, TopCommon } from '../common/common'
 import img from "../assets/inner-top.svg"
-import LeftChild from './LeftChild'
-import RightChild from './RightChild'
+import LeftChild from './LeftChildAbout'
+import RightChild from './RightChildAbout'
 
 const AboutUs = () => {
   return (

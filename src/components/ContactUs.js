@@ -1,5 +1,5 @@
 import React from 'react'
-import { TopCommon } from '../common/TopCommon'
+import { TopCommon } from '../common/common'
 import img from "../assets/inner-top.svg"
 
 const ContactUs = () => {
