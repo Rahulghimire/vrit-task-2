@@ -1,12 +1,11 @@
 import React from 'react'
-import img from "../assets/inner-top.svg"
 
 export const TopCommon = (props) => {
   return (
-    <div className='image-container'>
+    <div className={`${props.className}`}>
         <img
         className='image'
-        src={img}
+        src={props.img}
         />
     </div>
   )

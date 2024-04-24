@@ -12,7 +12,7 @@ const routers = createBrowserRouter([
     element: (
       <Suspense
         fallback={
-          <div className="dark:bg-[#000] bg-[#fff]">
+          <div className="bg-[#fff]">
             <img
               src={logo}
               className="m-auto flex h-screen w-52 items-center object-contain"
@@ -28,7 +28,19 @@ const routers = createBrowserRouter([
   {
     path: "/contact",
     element: (
+      <Suspense
+      fallback={
+        <div className="bg-[#fff]">
+          <img
+            src={logo}
+            className="m-auto flex h-screen w-52 items-center object-contain"
+            alt="image not found"
+          />
+        </div>
+      }
+      >
       <ContactUs/>
+      </Suspense>
     ),
   },
 ],{
