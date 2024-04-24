@@ -60,6 +60,10 @@ body {
   object-fit: contain;
 }
 
+.font-family-2{
+  font-family: 'Work-Sans';
+}
+
 @media (min-width: 1500px) {
   body {
     max-width: 1500px;
