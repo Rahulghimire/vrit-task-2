@@ -5,6 +5,7 @@ import LeftChild from './LeftChildAbout'
 import RightChild from './RightChildAbout'
 import LeftWhy from '../whyUs/LeftWhy'
 import RightWhy from '../whyUs/RightWhy'
+import Footer from '../Footer'
 
 const AboutUs = () => {
   return (
@@ -12,6 +13,7 @@ const AboutUs = () => {
         <TopCommon img={img} className="image-container"/>
         <MiddleCommon leftChild={<LeftChild/>} rightChild={<RightChild/>}/>
         <MiddleCommon leftChild={<LeftWhy/>} rightChild={<RightWhy/>}/>
+        <Footer/>
     </div>
   )
 }

@@ -75,6 +75,17 @@ body {
   font-family: "Work Sans", sans-serif;
 }
 
+/* .circular-checkbox {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #C2292E;
+  display: inline-block;
+} */
+
+
+
+
 
 @media (min-width: 1500px) {
   body {
@@ -94,8 +105,4 @@ body {
     font-weight: bold;
     font-size: 1rem;
   }
-
-
-
-  
 }

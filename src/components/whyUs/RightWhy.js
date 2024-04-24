@@ -1,5 +1,6 @@
 import React from "react";
 import Heading from "../Heading";
+import tick from "../../assets/tick.svg";
 
 const RightWhy = () => {
   return (
@@ -19,6 +20,84 @@ const RightWhy = () => {
         expectations. Join us and discover the magic of the Himalayas with
         confidence and peace of mind.
       </p>
+      <div className="grid grid-cols-1 md:grid-cols-2">
+        <div className="flex flex-col gap-y-[11px]">
+          <div className="flex gap-x-3 items-center">
+            <div>
+              <img src={tick} />
+            </div>
+            <div className="font-family-2 font-normal text-[18px] text-[#655C5C]">
+              Diverse Destinations
+            </div>
+            
+          </div>
+          <div className="flex gap-x-3 items-center">
+            <div>
+              <img src={tick} />
+            </div>
+            <div className="font-family-2 font-normal text-[18px] text-[#655C5C]">
+              Diverse Destinations
+            </div>
+            
+          </div>
+          <div className="flex gap-x-3 items-center">
+            <div>
+              <img src={tick} />
+            </div>
+            <div className="font-family-2 font-normal text-[18px] text-[#655C5C]">
+              Diverse Destinations
+            </div>
+            
+          </div>
+          <div className="flex gap-x-3 items-center">
+            <div>
+              <img src={tick} />
+            </div>
+            <div className="font-family-2 font-normal text-[18px] text-[#655C5C]">
+              Diverse Destinations
+            </div>
+            
+          </div>
+        </div>
+        <div className="flex flex-col gap-y-[11px]">
+          <div className="flex gap-x-3 items-center">
+            <div>
+              <img src={tick} />
+            </div>
+            <div className="font-family-2 font-normal text-[18px] text-[#655C5C]">
+              Diverse Destinations
+            </div>
+            
+          </div>
+          <div className="flex gap-x-3 items-center">
+            <div>
+              <img src={tick} />
+            </div>
+            <div className="font-family-2 font-normal text-[18px] text-[#655C5C]">
+              Diverse Destinations
+            </div>
+            
+          </div>
+          <div className="flex gap-x-3 items-center">
+            <div>
+              <img src={tick} />
+            </div>
+            <div className="font-family-2 font-normal text-[18px] text-[#655C5C]">
+              Diverse Destinations
+            </div>
+            
+          </div>
+          <div className="flex gap-x-3 items-center">
+            <div>
+              <img src={tick} />
+            </div>
+            <div className="font-family-2 font-normal text-[18px] text-[#655C5C]">
+              Diverse Destinations
+            </div>
+            
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
