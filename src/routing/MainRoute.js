@@ -1,10 +1,9 @@
-import Task2 from "../components/Task2";
 import { Suspense } from "react";
 import logo from "../assets/logo192.png";
 import { createBrowserRouter } from "react-router-dom";
 import ErrorPage from "../components/ErrorPage";
-import Task1 from "../components/Task1";
-import { Navbar } from "../components/Navbar";
+import AboutUs from "../components/AboutUs";
+import ContactUs from "../components/ContactUs";
 
 const routers = createBrowserRouter([
   {
@@ -22,20 +21,14 @@ const routers = createBrowserRouter([
           </div>
         }
       >
-        <div>
-          <Navbar />
-          <Task1 />
-        </div>
+        <AboutUs/>
       </Suspense>
     ),
   },
   {
-    path: "/task2",
+    path: "/contact",
     element: (
-      <div>
-        <Navbar />
-        <Task2 />
-      </div>
+      <ContactUs/>
     ),
   },
 ],{
