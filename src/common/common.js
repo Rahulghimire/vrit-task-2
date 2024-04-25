@@ -13,7 +13,7 @@ export const TopCommon = (props) => {
 
 export const MiddleCommon=(props)=>{
     return(
-        <div className='p-[20px] xl:px-[100px] xl:pt-[102px]'>
+        <div className='p-[20px] xl:px-[100px] xl:pt-[92px]'>
             <div className='grid grid-cols-1 lg:grid-cols-2 md:gap-[10px]  xl:gap-x-[26px]'>
                 <div>
                     {props.leftChild}

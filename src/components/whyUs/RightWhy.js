@@ -1,6 +1,7 @@
 import React from "react";
 import Heading from "../Heading";
 import tick from "../../assets/tick.svg";
+import chat from "../../assets/chat.svg"
 
 const RightWhy = () => {
   return (
@@ -94,7 +95,12 @@ const RightWhy = () => {
             <div className="font-family-2 font-normal text-[18px] text-[#655C5C]">
               Diverse Destinations
             </div>
-            
+          </div>
+
+          <div className="flex justify-end">
+            <img
+            src={chat}
+            />
           </div>
         </div>
       </div>
